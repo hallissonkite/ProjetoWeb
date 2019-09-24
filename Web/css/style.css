@@ -1,0 +1,419 @@
+
+
+.posi {
+  font-weight: 700;
+  font-family: sans-serif;
+  padding: 20px 0;
+  color: hsl(243, 87%, 12%);
+}
+@media (min-width: 768px) {
+  .posi {
+    font-size: 34px;
+    line-height: 1.3
+  }
+}
+
+
+.posiTexto {
+  font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  color: hsl(106, 0%, 98%);
+  padding-bottom: 20px;
+}
+
+.attribution a {
+  color: #bbb8fa;
+}
+
+.filo {
+  width: 96px;
+  height: 28px;
+}
+.filo2{
+  width: 96px;
+  height: 28px;
+  margin-left: 0px
+}
+
+@media (min-width: 768px) {
+  .filo {
+    width: 180px;
+    height: 60px;
+
+  }
+}
+
+.descricao1 {
+  font-size: 14px;
+  color: hsl(0, 0%, 50%);
+}
+@media(min-width: 768px){
+  .descricao1{
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    text-align: all;
+  }
+
+}
+  
+.descricao1Final {
+  margin-bottom: 30px;
+  
+}
+
+.corpo {
+  max-width: 1,024px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .corpo {
+    padding: 0 20px;
+  }
+}
+
+.caixa {
+  width: 100%;
+  background-color: hsl(106, 0%, 98%);
+  padding: 20px;
+  background: url(../images/bg-intro-mobile.svg) no-repeat 100% top;
+}
+
+@media(min-width: 768px) {
+  .caixa {
+    background: url(../images/bg-intro-desktop.svg) no-repeat 100% top;
+    background-size: 550px;
+    padding: 30px 50px 0;
+  }
+}
+
+.caixaTexto {
+  display: block;
+  height: 100vh;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .caixaTexto {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    justify-content: space-between;
+  }
+}
+
+.caixaCabeçalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabeçalhoBotao {
+  display: flex;
+}
+
+.boneco {
+  width: 300px;
+  height: 310px;
+}
+@media (min-width: 768px) {
+  .boneco {
+    padding-top: 20px;
+    width: 390px;
+  height: 400px;
+  }
+}
+@media (min-width: 768px) {
+  .zCaixa {
+    width: 50%;
+    padding: 100px 100px 0 0;
+  }
+}
+
+.meio {
+  padding: 100px 20px;
+  text-align: center;
+  background-color:  hsl(106, 0%, 98%);
+  border-top-left-radius:20px;
+  margin:0 auto;
+  width: 100%;
+  margin-top: 140px;
+  border-top: rotate(-5deg);
+}
+
+@media (min-width: 768px){
+  .meio{
+    width: 100%;
+  margin-top: 140px;
+  
+  margin: 0 auto;
+  }
+}
+.meioDescricao1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .meioDescricao1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+
+  }
+}
+
+@media (min-width: 768px) {
+  .pcPosi-1 {
+    grid-row: 1/1;
+    grid-column: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .pcPosi-2 {
+    grid-row: 1;
+    grid-column: 3;
+  }
+}
+
+@media (min-width: 768px) {
+  .appCorpo {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.app {
+  padding: 100px 20px;
+}
+
+@media (min-width: 768px) {
+  .app {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .app .item {
+    position: relative;
+    bottom: 40px;
+  }
+}
+
+.appInfo {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .appInfo {
+    padding: 1px 10px;
+    text-align: left;
+  }
+}
+
+.appId {
+  padding: 50px 50px;
+  margin: 0 auto;
+  width: 350px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .appId {
+    padding: 0;
+    margin: 0 20px;
+    width: 200px;
+  }
+}
+
+.appFilo {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 2px 2px 20px rgba(43, 43, 43, 0.2);
+
+}
+
+.appFilo > img {
+  width: 150px;
+}
+
+.appDescricao1 {
+  box-shadow: 2px 2px 20px rgba(43, 43, 43, 0.2);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0 20px 30px 20px;
+  
+}
+
+.descricao1Meio {
+  text-align: center;
+  padding: 100px 20px;
+  
+}
+
+
+@media (min-width: 768px) {
+  .descricao1Meio {
+    padding: 100px 150px;
+    
+   
+
+  }
+}
+
+
+.footer {
+  width: 100%;
+  background-color: hsl(243, 87%, 12%);
+}
+
+.footerCorpo {
+  width: 100%;
+  padding: 100px 20px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .footerCorpo {
+    width: 1024px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr repeat(3, 200px);
+    justify-items: center;
+  }
+}
+
+.footerDescricao1 {
+  padding: 30px 0;
+  color: hsl(106, 0%, 98%);
+
+}
+
+
+
+.footerFormulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media (min-width: 768px) {
+  .footerFormulario {
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+  }
+}
+
+.footerContato {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.footerContato > p {
+  color: hsl(106, 0%, 98%);
+  display: flex;
+  margin: 30px 0;
+}
+
+.footerLinks > p {
+  font-size: 22px;
+  font-weight: 700;
+  color: hsl(106, 0%, 98%);
+  margin: 50px 0;
+}
+
+.footerLinks .links {
+  list-style: none;
+  color: hsl(106, 0%, 98%);
+  margin: 30px 0;
+}
+
+
+.botao {
+  border: none;
+  background-color: hsl(163, 95%, 43%);
+  color: hsl(106, 0%, 98%);
+  border-radius: 3px;
+}
+
+.GetStarted {
+  padding: 0 50px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+  box-shadow: 3px 3px 5px rgba(43, 43, 43, 0.19);
+}
+
+.SignIn,
+.SignUp {
+  padding: 0 20px;
+  height: 35px;
+  background-color: hsl(163, 95%, 43%);
+}
+
+.SignIn {
+  background: none;
+}
+
+.Join {
+  padding: 0 60px;
+  height: 40px;
+  margin: 20px 5px 0 0;
+}
+
+@media (min-width: 768px) {
+  .Join {
+    margin: 0 0 0 10px;
+  }
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0 10px;
+  height: 40px;
+}
+
+.pc {
+  padding: 80px 0 30px 0;
+}
+
+.pcFooter {
+  margin-right: 20px;
+}
+
